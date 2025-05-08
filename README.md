@@ -18,17 +18,17 @@ a simple digital version of the board game connect 4
 
 ### Classes
 - **Board** (`model_board.py`):
-  - `__init__(self, rows, cols)`: Initializes the game board
-  - `drop_piece(self, col, player_num)`: Attempts to drop a piece in the selected column
-  - `check_winner(self)`: Checks and returns the winning player number if any
+  - `__init__(self, rows, cols)`: initializes the game board
+  - `drop_piece(self, col, player_num)`: attempts to drop a piece in the selected column
+  - `check_winner(self)`: checks and returns the winning player number if any
 
 - **Player** (`model_player.py`):
-  - `__init__(self, num, color)`: Initializes the player with a unique number and display color
+  - `__init__(self, num, color)`: initializes the player with a unique number and display color
 
 - **Controller** (`controller.py`):
-  - `__init__(self)`: Sets up the GUI, models, and state variables
-  - `draw_board(self)`: Renders the game grid and player discs
-  - `mainloop(self)`: Runs the event and game update loop
+  - `__init__(self)`: sets up the GUI, models, and state variables
+  - `draw_board(self)`: renders the game grid and player discs
+  - `mainloop(self)`: runs the event and game update loop
 
 ## ATP (Acceptance Test Procedure)
 
